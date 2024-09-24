@@ -2,9 +2,7 @@
     margin: 0;
     padding: o;
 }
-body{
-   height:10000px ; 
-}
+
 /* top bar started */
 .top_bar{
     background-color: rgb(11, 81, 11);
@@ -453,7 +451,7 @@ header{
 
 .clients_say{
     background-color:rgba(255, 255, 255, 0.456);
-    width: 600px;
+    width: 500px;
     font-size: 50px;
     color:black;
     border-radius: 10px;
@@ -462,13 +460,175 @@ header{
     margin-top: 40px;
 }
 
-.slider{
-    height: 300px;
-    width: 200px;
-    margin-top: 50px;
+.slider_img{
+    height: 350px;
+    width: 900px;
+   
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+    margin: 0 auto;
 }
 
-.slider_img{
+.your-class{
+    margin-top: 40px;
+}
+.slick-dots li button:before {
+    font-family: 'slick';
+    font-size: 12px;
+    line-height: 20px;
+    position: absolute;
+    top: 20px;
+    left: 0;
+    width: 20px;
+    height: 20px;
+    content: '•';
+    text-align: center;
+    opacity: revert;
+    color: #0e3e0e;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.slick-prev::before,
+.slick-next::before {
+    color: rgb(4, 87, 4);
+    font-size: 2.5rem;
+}
+
+.slick-prev,
+.slick-next {
+    width: 3.5rem;
+    height: 3.5rem;
+    z-index: 2;
+}
+
+.slick-list {
+    width: 95%;
+    margin: 0 auto;
+}
+
+.slick-prev {
+    left:170px;
+}
+
+.slick-next {
+    right:170px;
+}
+
+/* slider section end */
+
+
+.background_img_join_us{
+   background: url(./background_photos/white-abstract-background-3d-paper-style_23-2148402758.jpg);
+   background-repeat: no-repeat;
+   height: 500px;
+   width:100%;
+   background-size: cover;
+}
+
+.join_us h1{
+    font-size: 40px;
+}
+.join_us img{
+    height: 50px;
+    width: 200px;
+}
+
+.join_us_social_contant{
     display: flex;
-    
+    gap: 20px;
+    font-size: 40px;
+
+}
+
+ .join_us .fa-facebook-official{
+    color: rgb(10, 10, 123);
+}
+
+ .join_us .fa-twitter-square{
+    color: rgb(7, 126, 174);
+}
+
+.join_us .fa-youtube-play{
+    color:rgb(197, 12, 12);
+}
+ .join_us .fa-telegram{
+    color: rgb(22, 139, 185);
+}
+
+
+.join_us{
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 500px;
+
+}
+.join_us_slide{
+
+}
+
+
+
+
+
+
+.footer_part{
+    background: url(./background_photos/pngtree-green-computing-green-technology-green-it-csr-and-it-ethics-concept-image_15655649.jpg);
+    background-repeat: no-repeat;
+    height: 500px;
+    width: 100%;
+    background-size: cover;
+}
+
+.footer_part_transparent{
+    background-color: rgba(0, 0, 0, 0.773);
+    height: 500px;
+    width: 100%;
+    background-size: cover;
+}
+
+
+.footer_menu{
+    display: flex;
+    gap: 30px;
+    justify-content: space-around;
+    align-items: center;
+    height: 400px;
+}
+
+.footer_menu_container h3{
+    font-size: 50px;
+    color: white;
+}
+
+
+
+.last_part{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+.span{
+    font-size: 20px;
+    color: aliceblue;
+    margin-top: 150x;
+
+
+
+}
+.last_icon{
+    font-size: 30px;
+    color: white;
+}
+
+.fa-heart{
+    font-size: 20px;
+    color: rgb(14, 234, 14);
+    margin-top: 150x;
 }
