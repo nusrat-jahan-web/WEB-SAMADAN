@@ -566,10 +566,20 @@ header{
     height: 500px;
 
 }
-.join_us_slide{
 
+.join_us_slide img{
+    height: 200px;
+    width: 200px;
+    margin: 0 auto;
 }
-
+.join_us_slide{
+    background-color: white;
+    width: 300px;
+   
+    height: 250px;
+    display: flex;
+    border: 2px solid rgb(6, 105, 6);
+}
 
 
 
